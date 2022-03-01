@@ -7,7 +7,7 @@ import lombok.ToString;
 
 @Getter
 @Setter
-@EqualsAndHashCode
+@EqualsAndHashCode()
 public class Toggles {
     boolean test1 = true;
     boolean test2 = false;
